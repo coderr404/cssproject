@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-color: #F99501;
+    background-image: url(img/orange-backdrop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section p{
+  font-family: "Salsa", cursive;
+  font-size: 46px;
+  /* font-weight: 500;
+  font-style: normal; */
+  color: #1E1E1E;
+
+}
+
+.paragraph-audio{
+      margin: -40px 0px 0px 235px;
+
+}
+
+/* .audio-box{
+    background-color: #FBD8A4;
+    width: fit-content;
+} */
+
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+     
+     }
+     .jhalar{
+        width: 220px;
+        margin-bottom: -100px;
+     }
+
+     .audio-box{
+        background-color: #FBD8A4;
+        max-width: 500px;
+        border-radius: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+     }
+
