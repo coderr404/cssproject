@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  
 }
 
 .hero-section {
@@ -40,7 +39,7 @@ audio::-webkit-media-controls-panel {
   gap: 10px;
 }
 
-.horizontal-devider{
+.horizontal-devider {
   display: flex;
   gap: 4px;
   align-items: center;
@@ -48,76 +47,99 @@ audio::-webkit-media-controls-panel {
   margin-bottom: 8px;
 }
 
-.horizontal-line{
+.horizontal-line {
   width: 468px;
   height: 4px;
-  background-color: #FBD8A4;
+  background-color: #fbd8a4;
 }
 
-.circle{
+.circle {
   width: 10px;
   height: 10px;
   background-color: white;
   border-radius: 50%;
-  background-color: #FBD8A4;
+  background-color: #fbd8a4;
   flex-shrink: 0;
 }
 
-.ganpati-baba{
+.ganpati-baba {
   background-color: #f99501;
   padding-inline: 1rem;
 }
-.ganpati-baba img{
+.lakshmi-mata {
   display: block;
   margin-inline: auto;
   max-width: 1100px;
   width: 100%;
-  
 }
-.ganpati-baba p{
-  font-size: 70px;
+.ganpati-baba h2 {
+  font-size: 55px;
   font-weight: 400;
-   font-family: "Style Script", cursive;
-   text-align: center;
-   /* margin-top: 10px; */
+  font-family: "Style Script", cursive;
+  text-align: center;
 }
 
-
-@media (max-width: 840px){
-    .paragraph-audio{
-        margin-left: 1rem;
-    }
-    .first-deepak{
-        margin-left: auto;
-        display: block;
-        width: 100%;
-        max-width: 230px;
-    }
-    .jhalar{
-        margin-bottom: 0;
-    }
-    .second-deepak,
-    .audio-box span,
-    .audio-box img:nth-child(3){
-        display: none;
-    }
-    .audio-box{
-        margin: 1rem;
-        max-width: 18rem;
-        gap: 0px;
-        padding-right: 10px;
-    }
-    .hero-section{
-        line-height: 1;
-    }
-    .ganpati-baba p{
-      font-size: 24px;
-    }
+.white-card {
+  max-width: 550px;
+  background-color: white;
+  padding: 3rem;
+  margin-inline: auto;
+  border-radius: 15px;
+  margin-top: 3rem;
 }
 
-@media (max-width:400px){
-  .paragraph-audio p{
+.white-card p {
+  font-family: "salsa", cursive;
+  font-size: 30px;
+}
+
+.white-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.little-girl {
+  width: 100%;
+  max-width: 250px;
+  /* margin-left: -15rem; */
+}
+
+@media (max-width: 840px) {
+  .paragraph-audio {
+    margin-left: 1rem;
+  }
+  .first-deepak {
+    margin-left: auto;
+    display: block;
+    width: 100%;
+    max-width: 230px;
+  }
+  .jhalar {
+    margin-bottom: 0;
+  }
+  .second-deepak,
+  .audio-box span,
+  .audio-box img:nth-child(3) {
+    display: none;
+  }
+  .audio-box {
+    margin: 1rem;
+    max-width: 18rem;
+    gap: 0px;
+    padding-right: 10px;
+  }
+  .hero-section {
+    line-height: 1;
+  }
+  .ganpati-baba p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .paragraph-audio p {
     font-size: 32px;
   }
-
 }
