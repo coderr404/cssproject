@@ -80,30 +80,63 @@ audio::-webkit-media-controls-panel {
 }
 
 .white-card {
-  max-width: 550px;
+  max-width: 500px;
   background-color: white;
-  padding: 3rem;
-  margin-inline: auto;
+  padding: 2rem;
   border-radius: 15px;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .white-card p {
   font-family: "salsa", cursive;
   font-size: 30px;
+  color: #1e1e1e;
 }
 
 .white-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .little-girl {
   width: 100%;
-  max-width: 250px;
-  /* margin-left: -15rem; */
+  max-width: 210px;
+  margin-left: -4rem;
+  display: flex;
+}
+
+.footer-section {
+  background-color: #f99501;
+}
+.footer-img img {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  margin-inline: auto;
+}
+.footer-img {
+  padding: 1rem;
+}
+
+.footer-section h1 {
+  font-family: "salsa", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+.footer-section h2 {
+  font-family: "style script", cursive;
+  font-size: 50px;
+  font-weight: 400;
+}
+.my-name {
+  font-family: "salsa", cursive;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 1rem;
 }
 
 @media (max-width: 840px) {
@@ -136,10 +169,29 @@ audio::-webkit-media-controls-panel {
   .ganpati-baba p {
     font-size: 24px;
   }
+  .footer-section h1 {
+    font-size: 14px;
+  }
+  .footer-section h2 {
+    font-size: 24px;
+  }
+  .footer-img {
+    padding: 10px;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 520px) {
   .paragraph-audio p {
     font-size: 32px;
+  }
+  .white-card p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .little-girl {
+    width: 110px;
+  }
+  .white-card {
+    padding: 1rem;
   }
 }
